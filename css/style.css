@@ -1,0 +1,16 @@
+body {
+    background: url(../img/cover.png);
+    background-attachment: fixed;
+}
+
+/*navgation bar*/
+nav.navbar-transparent {
+    background: rgba(0,0,0,.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.5);
+}
