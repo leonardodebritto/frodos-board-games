@@ -1,7 +1,11 @@
-/*navgation bar*/
-nav.navbar-transparent {
-    background: rgba(0,0,0,.6);
+#first-section {
+    background: url(../img/cover.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/*first-navgation bar*/
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -10,9 +14,34 @@ nav.navbar-transparent {
     border-color: rgba(255,255,255,.5);
 }
 
+/*second-navgation bar*/
+
+.teste {
+    border-bottom: 1px solid white;
+}
+
+/*background-cover*/
 .cover-img {
     object-fit: cover;
     width: 100%;
     max-height: 650px;
     min-height: 400px;
+    border: 1px solid red;
 }
+
+/*carrousel*/
+.carrousel {
+    color: white;
+    padding-top:70px;
+}
+.teste2 {
+    text-align: center;
+    padding-bottom: 150px;
+}
+.meet-now-button {
+    align-content: center;
+    padding: 5px 30px 10px 30px;
+    margin-top: 10px;
+    background-color: #FFB72D;
+    color: white;
+}    
