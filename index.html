@@ -29,21 +29,25 @@
 
 <body>
 
-  <!--Beginning of carrousel and nav menus section-->
+  <!--Beginning of carousel and nav menus section-->
   <section id="first-section" class="container-fluid">
 
     <header>
       <!--Beginning of main navigation bar-->
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container teste">
-          <a href="index.html" class="navbar-brand">
-            <img src="img/logo1.svg" alt="Frodo's Board Games" width="170px" height="56px">
-          </a>
 
           <!--hamburger button-->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
-            <i class="fas fa-bars text-white"></i>
-          </button>
+          <div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+              <i class="fas fa-bars text-white"></i>
+            </button>
+
+            <a href="index.html" class="navbar-brand">
+              <img src="img/logo1.svg" alt="Frodo's Board Games" width="170px" height="56px">
+            </a>
+          </div>
+
 
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ml-auto">
@@ -63,10 +67,10 @@
       <!--Ending of main navigation bar-->
 
       <!--Beginning of secondary navigation bar-->
-      <nav class="navbar navbar-expand-md navbar-light navbar-transparent">
+      <nav class="navbar navbar-expand-md navbar-light">
         <div class="container justify-content-center">
 
-          <div class="row" id="second-nav">
+          <div class="row d-none d-sm-none d-md-block" id="second-nav">
             <ul class="navbar-nav ml-auto ">
               <li class="nav-item px-3">
                 <a class="nav-link" href="">Todos os jogos</a>
@@ -93,8 +97,8 @@
       <!--Ending of secondary navigation bar-->
     </header>
 
-    <!--carrousel-->
-    <section class=" carrousel">
+    <!--carousel-->
+    <div class=" carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -133,12 +137,24 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </section>
+    </div>
 
   </section>
-  <!--Ending of carrousel and nav menus section-->
+  <!--Ending of carousel and nav menus section-->
 
-  <h1>TESTE</h1>
+  <!--Beginning main content section-->
+  <main>
+    <section>
+      <div class="container-fluid" id="step-by-step">
+        <div class="row">
+          <div class="col-md-3" id="step-div">
+              <img src="img/shield.png">
+              <p>Encontre o jogo que você mais curtiu e clique nele</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
