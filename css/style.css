@@ -51,7 +51,6 @@
 .flex {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .shield {
      margin: 30px 0;
