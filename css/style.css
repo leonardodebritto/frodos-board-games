@@ -92,21 +92,26 @@ span.shield-text {
     font-size: 12px;
 }
 
-/*Game cards section*/
+/*Game cards title section*/
+.card-title {
+	font-weight: 500;
+	color: #B17A16;
+	;
+}
 
+/*Game cards section*/
+.card {
+	border: none;
+}
 .parent {
   position: relative;
-  top: 0;
-  left: 0;
 }
-
 .teste {
 	position: absolute;
-  top: -135px;
-  left: 150px;
-	width: 60px;
+  top: -145px;
+  left: 180px;
+	width: 55px;
 }
-
 .price-emphasis {
     font-weight: 700;
     font-size: 24px;
@@ -115,7 +120,11 @@ span.shield-text {
     font-weight: 500;
     font-size: 13px;
     color: #B17A16;
+		padding-left: 3px
     ;
+}
+.card-border {
+	border: 1px solid #B17A16;
 }
 
 /*typography*/
