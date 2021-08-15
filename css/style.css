@@ -92,6 +92,32 @@ span.shield-text {
     font-size: 12px;
 }
 
+/*Game cards section*/
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.teste {
+	position: absolute;
+  top: -135px;
+  left: 150px;
+	width: 60px;
+}
+
+.price-emphasis {
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-text {
+    font-weight: 500;
+    font-size: 13px;
+    color: #B17A16;
+    ;
+}
+
 /*typography*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
