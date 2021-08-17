@@ -111,10 +111,9 @@ span.shield-text {
 .parent {
   position: relative;
 }
-.teste {
+.card-dice-position {
   top: 225px;
   left: 180px;
-	width: 55px;
 }
 .price-emphasis {
     font-weight: 700;
@@ -161,4 +160,18 @@ span.shield-text {
     h1 {
         font-size: 3em;
     }
+}
+
+.news-dice-position {
+  top: 70px;
+  right: 30px;
+  width: 55px;
+}
+
+.news-text-position {
+bottom: 0;
+left: 0;
+margin-bottom:80px;
+margin-left: 60px;
+color: #fff;
 }
