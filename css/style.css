@@ -194,6 +194,12 @@ text-align: right;
 
 #options-bar {
     background: #68854D;
-    margin: 30px 0;
+    margin-top: 30px;
     padding: 20px 0;
+}
+
+/*Footer section*/
+footer {
+    background: #E7E7E7;
+    padding: 100px 0;
 }
