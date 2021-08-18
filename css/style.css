@@ -162,9 +162,15 @@ span.shield-text {
     }
 }
 
+/*News section*/
 .news-dice-position {
   top: 70px;
   right: 30px;
+  width: 55px;
+}
+.news-dice-position2 {
+  top: 70px;
+  left: 30px;
   width: 55px;
 }
 
@@ -174,4 +180,20 @@ left: 0;
 margin-bottom:80px;
 margin-left: 60px;
 color: #fff;
+}
+.news-text-position2 {
+bottom: 0;
+right: 0;
+margin-bottom:80px;
+margin-right: 60px;
+color: #fff;
+text-align: right;
+}
+
+/*Options bar section*/
+
+#options-bar {
+    background: #68854D;
+    margin: 30px 0;
+    padding: 20px 0;
 }
