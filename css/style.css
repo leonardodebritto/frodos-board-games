@@ -175,3 +175,9 @@ margin-bottom:80px;
 margin-left: 60px;
 color: #fff;
 }
+
+.item figure {
+    display: block;
+    width: 100%;
+    background: red;
+}
