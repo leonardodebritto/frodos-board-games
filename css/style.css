@@ -211,7 +211,6 @@ text-align: right;
 #options-bar {
     background: #68854D;
     margin-top: 30px;
-    padding: 20px 0;
 }
 
 /*Footer section*/
@@ -237,5 +236,16 @@ footer img {
 
 footer p {
     text-align: center;
-    padding-top: 60px;
-}
+    padding-top: 60px;}
+
+    @media (min-width: 650px) { 
+        .containerMobile {
+          display: none;
+        }
+      }
+      
+      @media (max-width: 650px) { 
+        .containerDesktop {
+          display: none;
+        }
+      }
