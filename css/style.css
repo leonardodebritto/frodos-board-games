@@ -127,6 +127,18 @@ span.shield-text {
 		padding-left: 3px
     ;
 }
+.card-button {
+    display: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color:#476828;
+    color: #fff;
+    font-weight: 700;
+}
+.card:hover a {
+    display: block;
+}
 .card-border {
 	border: 1px solid #B17A16;
 }
