@@ -1,16 +1,20 @@
-/*site background*/
-#first-section {
-    background: url(../img/cover.png); 
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*general formating*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .relative {
     position: relative;
 }
 .absolute {
     position: absolute;
+}
+/*site background*/
+#first-section {
+    background: url(../img/cover.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*first-navgation bar*/
@@ -24,6 +28,35 @@
 .navbar-toggler {
     border: none;
 }
+
+/*Search bar*/
+.box {
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0 30px;
+    border: 3px solid #B17A16;
+}
+.box i {
+    font-size: 20px;
+    color: #fff;
+}
+.box input {
+    flex: 1;
+    height:30px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    background-color: transparent;
+}
+input::placeholder {
+    color: #fff;
+}
+
+
 
 /*second-navgation bar*/
 .menu-bottom-line {
@@ -107,6 +140,7 @@ span.shield-text {
 /*Game cards section*/
 .card {
 	border: none;
+    margin: 10px;
 }
 .parent {
   position: relative;
@@ -138,6 +172,10 @@ span.shield-text {
 }
 .card:hover a {
     display: block;
+}
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.02);
 }
 .card-border {
 	border: 1px solid #B17A16;
