@@ -29,6 +29,11 @@
     border: none;
 }
 
+#main-nav a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
 /*Search bar*/
 .box {
     width: 100%;
@@ -37,7 +42,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    margin: 0 30px;
+    margin: 10px 0 20px 0;
     border: 3px solid #B17A16;
 }
 .box i {
@@ -51,12 +56,13 @@
     outline: none;
     padding-left: 5px;
     background-color: transparent;
+    margin-bottom: 5px;
 }
-input::placeholder {
+::placeholder {
     color: #fff;
+    font-size: 12px;
+    font-weight: 500;
 }
-
-
 
 /*second-navgation bar*/
 .menu-bottom-line {
@@ -199,6 +205,7 @@ span.shield-text {
     h3 {
         font-size: 1em;
     }
+
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -207,7 +214,9 @@ span.shield-text {
     }
     h3 {
         font-size: 1em;
-    }
+    }   
+
+
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -286,16 +295,5 @@ footer img {
 
 footer p {
     text-align: center;
-    padding-top: 60px;}
-
-    @media (min-width: 650px) { 
-        .containerMobile {
-          display: none;
-        }
-      }
-      
-      @media (max-width: 650px) { 
-        .containerDesktop {
-          display: none;
-        }
-      }
+    padding-top: 60px;
+}
