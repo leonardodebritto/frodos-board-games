@@ -45,10 +45,15 @@
     right: 0;
     top: 25px;
 }
-
 .menu-icon-position {
     margin: 0 auto;
-
+}
+.menu-icon-position:hover {
+    margin: 0 auto;
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /*second-navgation bar*/
@@ -62,7 +67,7 @@
 
 /*Search bar*/
 .box {
-    height: 30px;
+    height: 20px;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -127,9 +132,18 @@ textarea:focus, input:focus {
     color: white;
     font-weight: 700;
 }
+.meet-now-button:hover {
+    background-color: #ffcc6c;
+    color: white;
+    font-weight: 700;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: #B17A16;
-    margin-bottom: 150px;
+    border-radius: 30px;
+    margin-bottom: 140px;
 }
 
 /*Step by step bar section*/
@@ -181,20 +195,21 @@ span.shield-text {
 .card-title {
 	font-weight: 500;
 	color: #B17A16;
-	;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 /*Game cards section*/
 .card {
 	border: none;
-    margin: 10px;
+    padding: 10px;
 }
 .parent {
   position: relative;
 }
 .card-dice-position {
   width: 80px;
-  bottom: 120px;
+  bottom: 140px;
   right: 0;
 }
 .price-emphasis {
@@ -205,8 +220,7 @@ span.shield-text {
     font-weight: 500;
     font-size: 13px;
     color: #B17A16;
-		padding-left: 3px
-    ;
+	padding-left: 3px;
 }
 .card-button {
     display: none;
@@ -216,6 +230,14 @@ span.shield-text {
     background-color:#476828;
     color: #fff;
     font-weight: 700;
+}
+.card-button:hover {
+    background-color: #59773d;
+    color: #fff;
+    font-weight: 700;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.02);
+
 }
 .card:hover a {
     display: block;
@@ -280,12 +302,12 @@ span.shield-text {
 
 /*News section*/
 .news-dice-position {
-  top: 70px;
+  top: 30px;
   right: 30px;
   width: 55px;
 }
 .news-dice-position2 {
-  top: 70px;
+  top: 30px;
   left: 30px;
   width: 55px;
 }
@@ -306,6 +328,15 @@ color: #fff;
 text-align: right;
 }
 
+.news-box {
+    padding: 20px 20px 10px 20px;
+}
+
+.news-box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+}
+
 /*Options bar section*/
 
 #options-bar {
@@ -317,6 +348,13 @@ text-align: right;
 footer {
     background: #E7E7E7;
     padding: 40px 0 10px 0;
+}
+
+footer a {
+    color: #000;
+}
+footer a:hover {
+    text-decoration: none;
 }
 
 footer ul {
