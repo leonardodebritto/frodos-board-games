@@ -208,9 +208,10 @@ span.shield-text {
   position: relative;
 }
 .card-dice-position {
-  width: 80px;
-  bottom: 140px;
-  right: 0;
+  right: 10%;
+  bottom: -1%;
+  width: 25%;
+  max-width:13%;
 }
 .price-emphasis {
     font-weight: 700;
@@ -230,6 +231,7 @@ span.shield-text {
     background-color:#476828;
     color: #fff;
     font-weight: 700;
+    
 }
 .card-button:hover {
     background-color: #59773d;
