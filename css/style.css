@@ -202,13 +202,22 @@ span.shield-text {
 	color: #B17A16;
     padding-top: 40px;
     padding-bottom: 30px;
+    margin: 0;
 }
 
 /*Game cards section*/
 .card {
 	border: none;
     padding: 10px;
+    margin-bottom: 62px;
 }
+
+.card:hover {
+	border: none;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
 .parent {
   position: relative;
 }
@@ -236,7 +245,7 @@ span.shield-text {
     background-color:#476828;
     color: #fff;
     font-weight: 700;
-    
+    z-index: 100;    
 }
 .card-button:hover {
     background-color: #59773d;
@@ -244,7 +253,7 @@ span.shield-text {
     font-weight: 700;
     -webkit-transform: scale(1.1);
     transform: scale(1.02);
-
+    z-index: 100;
 }
 .card:hover a {
     display: block;
